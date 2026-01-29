@@ -28,6 +28,76 @@
       "isDefault": true,
       "status": "tested",
       "notes": "Lightweight offline model. Works correctly for English dictation."
+    },
+    {
+      "id": "sherpa-onnx-streaming-zipformer-es-kroko-2025-08-06",
+      "engine": "sherpaOnnx",
+      "language": "es",
+      "name": "Kroko Español (Streaming)",
+      "sizeBytes": 163000000,
+      "minRamMb": 512,
+      "qualityTier": "medium",
+      "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-es-kroko-2025-08-06.tar.bz2",
+      "checksum": "",
+      "isDefault": false,
+      "status": "untested",
+      "notes": "Zipformer streaming para español. Resultados en tiempo real. Requiere OnlineRecognizer."
+    },
+    {
+      "id": "sherpa-onnx-streaming-zipformer-en-kroko-2025-08-06",
+      "engine": "sherpaOnnx",
+      "language": "en",
+      "name": "Kroko English (Streaming)",
+      "sizeBytes": 163000000,
+      "minRamMb": 512,
+      "qualityTier": "medium",
+      "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-en-kroko-2025-08-06.tar.bz2",
+      "checksum": "",
+      "isDefault": false,
+      "status": "untested",
+      "notes": "Zipformer streaming for English. Real-time results. Requires OnlineRecognizer."
+    },
+    {
+      "id": "sherpa-onnx-nemo-canary-180m-flash-en-es-de-fr",
+      "engine": "sherpaOnnx",
+      "language": "multilingual",
+      "name": "NeMo Canary 180M Flash (EN/ES/DE/FR)",
+      "sizeBytes": 700000000,
+      "minRamMb": 1024,
+      "qualityTier": "large",
+      "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-canary-180m-flash-en-es-de-fr.tar.bz2",
+      "checksum": "",
+      "isDefault": false,
+      "status": "untested",
+      "notes": "NVIDIA NeMo Canary. Alta calidad, 4 idiomas. Offline, no streaming. ~700 MB."
+    },
+    {
+      "id": "sherpa-onnx-whisper-tiny",
+      "engine": "sherpaOnnx",
+      "language": "multilingual",
+      "name": "Whisper Tiny (Multilingüe)",
+      "sizeBytes": 75000000,
+      "minRamMb": 512,
+      "qualityTier": "small",
+      "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-whisper-tiny.tar.bz2",
+      "checksum": "",
+      "isDefault": false,
+      "status": "untested",
+      "notes": "Whisper tiny local via sherpa-rs. Rápido, calidad básica. ~75 MB."
+    },
+    {
+      "id": "sherpa-onnx-whisper-base",
+      "engine": "sherpaOnnx",
+      "language": "multilingual",
+      "name": "Whisper Base (Multilingüe)",
+      "sizeBytes": 150000000,
+      "minRamMb": 768,
+      "qualityTier": "medium",
+      "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-whisper-base.tar.bz2",
+      "checksum": "",
+      "isDefault": true,
+      "status": "untested",
+      "notes": "Whisper base local via sherpa-rs. Buena calidad. ~150 MB."
     }
   ]
 }
