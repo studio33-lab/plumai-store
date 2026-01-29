@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "plumai-official",
+  "name": "PlumAi Official Packages",
+  "updated_at": "2026-01-28T12:00:00Z",
+  "packages": [
+    {
+      "id": "test-pack-001",
+      "version": "1.0.0",
+      "author": "PlumAi Studio",
+      "category": "content",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Paquete de Prueba",
+          "description": "Un paquete de demostración para verificar el sistema de Package Store. Incluye un personaje y un elemento de lore de ejemplo."
+        },
+        "en": {
+          "name": "Test Package",
+          "description": "A demo package to verify the Package Store system. Includes a sample character and lore item."
+        }
+      },
+      "download_url": "packages/test-pack-001-1.0.0.plumapkg",
+      "size_bytes": 1005,
+      "checksum_sha256": "7049e128ab433387c7e7591759c06e7061bdd9e3641c15a135d7ad77b3b9b341",
+      "tags": ["test", "demo", "content"]
+    },
+    {
+      "id": "noir-identity-001",
+      "version": "1.0.0",
+      "author": "PlumAi Studio",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Identidad Noir",
+          "description": "Un tema visual oscuro inspirado en novela negra. Colores fríos, tipografía serif elegante."
+        },
+        "en": {
+          "name": "Noir Identity",
+          "description": "A dark visual theme inspired by noir fiction. Cold colors, elegant serif typography."
+        }
+      },
+      "download_url": "packages/noir-identity-001-1.0.0.plumapkg",
+      "size_bytes": 663,
+      "checksum_sha256": "12316023a6e980643282cdb6341558c966e12af8a62694cc9dd6e75720e0d87b",
+      "tags": ["theme", "noir", "dark", "identity"]
+    }
+  ]
+}
