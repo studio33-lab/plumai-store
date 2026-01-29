@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "models": [
+    {
+      "id": "vosk-model-small-es-0.42",
+      "engine": "vosk",
+      "language": "es",
+      "name": "Vosk Español (Pequeño)",
+      "sizeBytes": 39000000,
+      "minRamMb": 256,
+      "qualityTier": "small",
+      "downloadUrl": "https://alphacephei.com/vosk/models/vosk-model-small-es-0.42.zip",
+      "checksum": "",
+      "isDefault": true,
+      "status": "tested",
+      "notes": "Modelo offline ligero. Funciona correctamente para dictado en español."
+    },
+    {
+      "id": "vosk-model-small-en-us-0.15",
+      "engine": "vosk",
+      "language": "en",
+      "name": "Vosk English (Small)",
+      "sizeBytes": 40000000,
+      "minRamMb": 256,
+      "qualityTier": "small",
+      "downloadUrl": "https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip",
+      "checksum": "",
+      "isDefault": true,
+      "status": "tested",
+      "notes": "Lightweight offline model. Works correctly for English dictation."
+    }
+  ]
+}
