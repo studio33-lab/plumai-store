@@ -2,49 +2,465 @@
   "schema_version": "1.0",
   "registry_id": "plumai-official",
   "name": "PlumAi Official Packages",
-  "updated_at": "2026-01-28T12:00:00Z",
+  "updated_at": "2026-05-04T13:16:22.416Z",
   "packages": [
     {
-      "id": "test-pack-001",
+      "id": "como-matar-un-perro",
       "version": "1.0.0",
-      "author": "PlumAi Studio",
+      "author": "PlumAi Internal — eval seed",
       "category": "content",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
-          "name": "Paquete de Prueba",
-          "description": "Un paquete de demostración para verificar el sistema de Package Store. Incluye un personaje y un elemento de lore de ejemplo."
+          "name": "Cómo matar un perro",
+          "description": "Plantilla de proyecto basada en la novela \"Cómo matar un perro\" (Rancagua, 1990). 11 personajes, 7 ubicaciones, 7 eventos y 9 piezas de lore/objetos. Usada como seed end-to-end de Fase 2.5 y baseline para plantillas de onboarding."
         },
         "en": {
-          "name": "Test Package",
-          "description": "A demo package to verify the Package Store system. Includes a sample character and lore item."
+          "name": "How to Kill a Dog",
+          "description": "Project template seeded from the novel \"Cómo matar un perro\" (Rancagua, 1990). 11 characters, 7 locations, 7 events and 9 lore/objects. Used as Fase 2.5 end-to-end seed and onboarding template baseline."
         }
       },
-      "download_url": "packages/test-pack-001-1.0.0.plumapkg",
-      "size_bytes": 1005,
-      "checksum_sha256": "7049e128ab433387c7e7591759c06e7061bdd9e3641c15a135d7ad77b3b9b341",
-      "tags": ["test", "demo", "content"]
+      "download_url": "packages/como-matar-un-perro-1.0.0.plumapkg",
+      "size_bytes": 9557,
+      "checksum_sha256": "2e6560b616512f5f7d0ffe3f695036455aae0f7c80cbe82b935b39f78fe453c4",
+      "tags": [
+        "content",
+        "characters",
+        "lore"
+      ]
     },
     {
-      "id": "noir-identity-001",
+      "id": "core-rag-flows",
+      "version": "1.1.0",
+      "author": "PlumAi",
+      "category": "core",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Flujos RAG Base",
+          "description": "Los 3 agentes cognitivos del sistema: El Bibliotecario (análisis), El Escritor (generación) y El Actor (personajes). Se instalan automáticamente al abrir RAG Studio."
+        },
+        "en": {
+          "name": "Core RAG Flows",
+          "description": "The 3 cognitive agents of the system: The Librarian (analysis), The Writer (generation) and The Actor (characters). Auto-installed when opening RAG Studio."
+        }
+      },
+      "download_url": "packages/core-rag-flows-1.1.0.plumapkg",
+      "size_bytes": 2976,
+      "checksum_sha256": "036522eadb876481675380aff6d7889ff0f5d4f983b9a19603ccc5a9b797eb41",
+      "tags": [
+        "core",
+        "rag"
+      ]
+    },
+    {
+      "id": "fantasy-pack",
       "version": "1.0.0",
       "author": "PlumAi Studio",
+      "category": "hybrid",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Bestiario Fantasía Básica",
+          "description": "Un conjunto esencial de criaturas y lore para campañas de fantasía épica. Incluye Goblins, Dragones y un tema visual oscuro."
+        },
+        "en": {
+          "name": "Basic Fantasy Bestiary",
+          "description": "An essential set of creatures and lore for epic fantasy campaigns. Includes Goblins, Dragons, and a dark visual theme."
+        }
+      },
+      "download_url": "packages/fantasy-pack-1.0.0.plumapkg",
+      "size_bytes": 25820587,
+      "checksum_sha256": "7625cdb3ff346b2d3e6042b827b7970967de2cc87fbbfac241402e8df59fcd64",
+      "tags": [
+        "hybrid",
+        "creatures",
+        "lore"
+      ]
+    },
+    {
+      "id": "font-eb-garamond",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
       "category": "identity",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
-          "name": "Identidad Noir",
-          "description": "Un tema visual oscuro inspirado en novela negra. Colores fríos, tipografía serif elegante."
+          "name": "EB Garamond",
+          "description": "Fuente serif clásica literaria. Inspirada en los tipos de Claude Garamond del siglo XVI."
         },
         "en": {
-          "name": "Noir Identity",
-          "description": "A dark visual theme inspired by noir fiction. Cold colors, elegant serif typography."
+          "name": "EB Garamond",
+          "description": "Classic literary serif font. Inspired by Claude Garamond's 16th century types."
         }
       },
-      "download_url": "packages/noir-identity-001-1.0.0.plumapkg",
-      "size_bytes": 663,
-      "checksum_sha256": "12316023a6e980643282cdb6341558c966e12af8a62694cc9dd6e75720e0d87b",
-      "tags": ["theme", "noir", "dark", "identity"]
+      "download_url": "packages/font-eb-garamond-1.0.0.plumapkg",
+      "size_bytes": 500,
+      "checksum_sha256": "1f4e8e9d4addd159dd88e46de1d5d700496acb14ae401688d0b08ab2eecebab4",
+      "tags": [
+        "identity",
+        "font"
+      ]
+    },
+    {
+      "id": "font-jetbrains-mono",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "JetBrains Mono",
+          "description": "Fuente monoespaciada para máximo enfoque. Diseñada para larga escritura sin fatiga visual."
+        },
+        "en": {
+          "name": "JetBrains Mono",
+          "description": "Monospaced font for maximum focus. Designed for long writing without visual fatigue."
+        }
+      },
+      "download_url": "packages/font-jetbrains-mono-1.0.0.plumapkg",
+      "size_bytes": 511,
+      "checksum_sha256": "e068a852f04b1d2729901cfaa6a54ba75f0301ab7bfa6b75548977ff3b94066d",
+      "tags": [
+        "identity",
+        "font"
+      ]
+    },
+    {
+      "id": "font-lora",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Lora",
+          "description": "Fuente serif elegante para escritura literaria. Transiciones suaves y carácter sofisticado."
+        },
+        "en": {
+          "name": "Lora",
+          "description": "Elegant serif font for literary writing. Smooth transitions and sophisticated character."
+        }
+      },
+      "download_url": "packages/font-lora-1.0.0.plumapkg",
+      "size_bytes": 502,
+      "checksum_sha256": "e4774dcbd7d9fe182489dc2eda5d3a6f7aabc3cf2ffd0711ae080f7bbfc4d9c0",
+      "tags": [
+        "identity",
+        "font"
+      ]
+    },
+    {
+      "id": "font-merriweather",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Merriweather",
+          "description": "Fuente serif de alta legibilidad. Ideal para textos largos y lectura confortable."
+        },
+        "en": {
+          "name": "Merriweather",
+          "description": "High readability serif font. Ideal for long texts and comfortable reading."
+        }
+      },
+      "download_url": "packages/font-merriweather-1.0.0.plumapkg",
+      "size_bytes": 487,
+      "checksum_sha256": "9160724f0e793305cbbebe37582618ccc54bbbdddfcba6f1e669215e619e17e7",
+      "tags": [
+        "identity",
+        "font"
+      ]
+    },
+    {
+      "id": "font-montserrat",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Montserrat",
+          "description": "Fuente sans-serif geométrica y limpia. Moderna y versátil para interfaces."
+        },
+        "en": {
+          "name": "Montserrat",
+          "description": "Clean geometric sans-serif font. Modern and versatile for interfaces."
+        }
+      },
+      "download_url": "packages/font-montserrat-1.0.0.plumapkg",
+      "size_bytes": 472,
+      "checksum_sha256": "8904bb8e1b1462e135b80d19bdd8bedeb1463401356b7e57592e3a6a7a796bb4",
+      "tags": [
+        "identity",
+        "font"
+      ]
+    },
+    {
+      "id": "font-playfair",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Playfair Display",
+          "description": "Fuente serif display con estilo tradicional. Perfecta para títulos y texto editorial."
+        },
+        "en": {
+          "name": "Playfair Display",
+          "description": "Traditional style display serif font. Perfect for titles and editorial text."
+        }
+      },
+      "download_url": "packages/font-playfair-1.0.0.plumapkg",
+      "size_bytes": 484,
+      "checksum_sha256": "6a08d262ffd22873dae1289509e0290427b4c6eea068ef2780e1da833b28243f",
+      "tags": [
+        "identity",
+        "font"
+      ]
+    },
+    {
+      "id": "system-banners",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Banners del Sistema",
+          "description": "Banners por defecto para la barra lateral de la aplicacion."
+        },
+        "en": {
+          "name": "System Banners",
+          "description": "Default banners for the application sidebar."
+        }
+      },
+      "download_url": "packages/system-banners-1.0.0.plumapkg",
+      "size_bytes": 1664361,
+      "checksum_sha256": "862a0a81cb539410c453117d2addb44e6e226feb4a35e85fee1b139620b584ec",
+      "tags": [
+        "identity",
+        "banners"
+      ]
+    },
+    {
+      "id": "theme-cyberpunk-terminal",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Terminal Green",
+          "description": "Tema terminal cyberpunk con verde fosforescente sobre negro. Alto contraste retro."
+        },
+        "en": {
+          "name": "Terminal Green",
+          "description": "Cyberpunk terminal theme with phosphorescent green on black. High contrast retro."
+        }
+      },
+      "download_url": "packages/theme-cyberpunk-terminal-1.0.0.plumapkg",
+      "size_bytes": 576,
+      "checksum_sha256": "9f76ffad05793e04ed4fc452ffe1b5ff295cbc1390188ea0e77b606dccc710db",
+      "tags": [
+        "identity",
+        "theme"
+      ]
+    },
+    {
+      "id": "theme-dark-modern",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Dark Modern",
+          "description": "Tema oscuro profesional inspirado en editores de código. Elegante y contrastado."
+        },
+        "en": {
+          "name": "Dark Modern",
+          "description": "Professional dark theme inspired by code editors. Elegant and contrasted."
+        }
+      },
+      "download_url": "packages/theme-dark-modern-1.0.0.plumapkg",
+      "size_bytes": 685,
+      "checksum_sha256": "3ee8e0fbd2a05b014c411284385156c3c382f47500c711238778028211b94034",
+      "tags": [
+        "identity",
+        "theme"
+      ]
+    },
+    {
+      "id": "theme-emerald-forest",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Emerald Forest",
+          "description": "Tema verde esmeralda inspirado en bosques encantados. Perfecto para fantasía."
+        },
+        "en": {
+          "name": "Emerald Forest",
+          "description": "Emerald green theme inspired by enchanted forests. Perfect for fantasy."
+        }
+      },
+      "download_url": "packages/theme-emerald-forest-1.0.0.plumapkg",
+      "size_bytes": 605,
+      "checksum_sha256": "327cb3592eecbdb2146ccdf2a8c44426e139b7d98581e0439c5b8228103063bf",
+      "tags": [
+        "identity",
+        "theme"
+      ]
+    },
+    {
+      "id": "theme-hell-fire",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Hell Fire",
+          "description": "Tema infernal con rojos profundos. Inspirado en Diablo y dark fantasy."
+        },
+        "en": {
+          "name": "Hell Fire",
+          "description": "Infernal theme with deep reds. Inspired by Diablo and dark fantasy."
+        }
+      },
+      "download_url": "packages/theme-hell-fire-1.0.0.plumapkg",
+      "size_bytes": 580,
+      "checksum_sha256": "7164cc1beca298d41dfc715ebff09bcf7ac60f0c9612c8d49108e575aa47b3fb",
+      "tags": [
+        "identity",
+        "theme"
+      ]
+    },
+    {
+      "id": "theme-light-pastel",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Light Pastel",
+          "description": "Tema claro con tonos pastel cálidos. Ideal para sesiones de escritura diurnas."
+        },
+        "en": {
+          "name": "Light Pastel",
+          "description": "Light theme with warm pastel tones. Ideal for daytime writing sessions."
+        }
+      },
+      "download_url": "packages/theme-light-pastel-1.0.0.plumapkg",
+      "size_bytes": 691,
+      "checksum_sha256": "fcb3ec3fed010d50e32aee7e7ed2e0c17273188024d3f4e3b248ebaac3b63fbb",
+      "tags": [
+        "identity",
+        "theme"
+      ]
+    },
+    {
+      "id": "theme-midnight-focus",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Midnight Focus",
+          "description": "Tema azul profundo para escritura nocturna concentrada. Mínima distracción."
+        },
+        "en": {
+          "name": "Midnight Focus",
+          "description": "Deep blue theme for focused night writing. Minimal distraction."
+        }
+      },
+      "download_url": "packages/theme-midnight-focus-1.0.0.plumapkg",
+      "size_bytes": 618,
+      "checksum_sha256": "3cfeeea185b70c03864bc2899dbc5fed0b941e34fcc23a4ac8f0c918970df5ff",
+      "tags": [
+        "identity",
+        "theme"
+      ]
+    },
+    {
+      "id": "theme-nordic-clean",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Nordic Clean",
+          "description": "Tema claro minimalista inspirado en el diseño escandinavo. Limpio y profesional."
+        },
+        "en": {
+          "name": "Nordic Clean",
+          "description": "Minimalist light theme inspired by Scandinavian design. Clean and professional."
+        }
+      },
+      "download_url": "packages/theme-nordic-clean-1.0.0.plumapkg",
+      "size_bytes": 614,
+      "checksum_sha256": "0efcab90501012c635725af75627566f02bf12ea32850f6e41117dd17dde5825",
+      "tags": [
+        "identity",
+        "theme"
+      ]
+    },
+    {
+      "id": "theme-parchment-rpg",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Parchment RPG",
+          "description": "Tema pergamino con estética RPG medieval. Para campañas y worldbuilding."
+        },
+        "en": {
+          "name": "Parchment RPG",
+          "description": "Parchment theme with medieval RPG aesthetics. For campaigns and worldbuilding."
+        }
+      },
+      "download_url": "packages/theme-parchment-rpg-1.0.0.plumapkg",
+      "size_bytes": 620,
+      "checksum_sha256": "798a703321e227f8390c8f70234197961af015da077cf6304ba52a823d133ad1",
+      "tags": [
+        "identity",
+        "theme"
+      ]
+    },
+    {
+      "id": "worldbuilder-rpg-skins",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Pieles RPG Worldbuilder",
+          "description": "Set completo de banners RPG para el modo construccion de mundos. 15 categorias con paisajes epicos y ambientacion fantastica."
+        },
+        "en": {
+          "name": "Worldbuilder RPG Skins",
+          "description": "Complete RPG banner set for worldbuilding mode. 15 categories with epic landscapes and fantasy atmosphere."
+        }
+      },
+      "download_url": "packages/worldbuilder-rpg-skins-1.0.0.plumapkg",
+      "size_bytes": 6305435,
+      "checksum_sha256": "bffef1c53011f58b4e95f98bc1193d1859ffb198402f05f62321de3f8c6df32c",
+      "tags": [
+        "identity",
+        "banners"
+      ]
     }
   ]
 }
