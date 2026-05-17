@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "registry_id": "plumai-official",
   "name": "PlumAi Official Packages",
-  "updated_at": "2026-05-04T13:16:22.416Z",
+  "updated_at": "2026-05-17T02:18:01.532Z",
   "packages": [
     {
       "id": "como-matar-un-perro",
@@ -224,23 +224,23 @@
     },
     {
       "id": "system-banners",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "PlumAi Core",
       "category": "identity",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
-          "name": "Banners del Sistema",
-          "description": "Banners por defecto para la barra lateral de la aplicacion."
+          "name": "Banners e Iconos del Sistema",
+          "description": "Banners por defecto y iconos de la aplicacion."
         },
         "en": {
-          "name": "System Banners",
-          "description": "Default banners for the application sidebar."
+          "name": "System Banners & Icons",
+          "description": "Default banners and application icons."
         }
       },
-      "download_url": "packages/system-banners-1.0.0.plumapkg",
-      "size_bytes": 1664361,
-      "checksum_sha256": "862a0a81cb539410c453117d2addb44e6e226feb4a35e85fee1b139620b584ec",
+      "download_url": "packages/system-banners-1.1.0.plumapkg",
+      "size_bytes": 12047200,
+      "checksum_sha256": "534b70cb5c6ff2d3f36198b568d8df630dd19b6b62f27bd7b2aea60116b0cf8b",
       "tags": [
         "identity",
         "banners"
