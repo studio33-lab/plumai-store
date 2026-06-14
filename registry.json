@@ -82,7 +82,7 @@
       "id": "font-eb-garamond",
       "version": "1.1.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "font",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -106,7 +106,7 @@
       "id": "font-jetbrains-mono",
       "version": "1.1.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "font",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -130,7 +130,7 @@
       "id": "font-lora",
       "version": "1.1.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "font",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -154,7 +154,7 @@
       "id": "font-merriweather",
       "version": "1.1.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "font",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -178,7 +178,7 @@
       "id": "font-montserrat",
       "version": "1.1.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "font",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -202,7 +202,7 @@
       "id": "font-playfair",
       "version": "1.1.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "font",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -250,7 +250,7 @@
       "id": "theme-cyberpunk-terminal",
       "version": "1.0.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "theme",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -274,7 +274,7 @@
       "id": "theme-dark-modern",
       "version": "1.0.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "theme",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -298,7 +298,7 @@
       "id": "theme-emerald-forest",
       "version": "1.0.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "theme",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -322,7 +322,7 @@
       "id": "theme-hell-fire",
       "version": "1.0.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "theme",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -346,7 +346,7 @@
       "id": "theme-light-pastel",
       "version": "1.0.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "theme",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -370,7 +370,7 @@
       "id": "theme-midnight-focus",
       "version": "1.0.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "theme",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -394,7 +394,7 @@
       "id": "theme-nordic-clean",
       "version": "1.0.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "theme",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -418,7 +418,7 @@
       "id": "theme-parchment-rpg",
       "version": "1.0.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "theme",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -466,7 +466,7 @@
       "id": "amazon-endure",
       "version": "1.0.0",
       "author": "PlumAi",
-      "category": "identity",
+      "category": "font",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -492,7 +492,7 @@
       "id": "font-alegreya",
       "version": "1.0.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "font",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -518,7 +518,7 @@
       "id": "font-vollkorn",
       "version": "1.0.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "font",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
@@ -544,7 +544,7 @@
       "id": "font-spectral",
       "version": "1.0.0",
       "author": "PlumAi Core",
-      "category": "identity",
+      "category": "font",
       "min_app_version": "0.1.0",
       "metadata": {
         "es": {
