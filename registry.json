@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "registry_id": "plumai-official",
   "name": "PlumAi Official Packages",
-  "updated_at": "2026-05-17T02:18:01.532Z",
+  "updated_at": "2026-06-14T00:00:00.000Z",
   "packages": [
     {
       "id": "como-matar-un-perro",
@@ -80,7 +80,7 @@
     },
     {
       "id": "font-eb-garamond",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "PlumAi Core",
       "category": "identity",
       "min_app_version": "0.1.0",
@@ -94,9 +94,9 @@
           "description": "Classic literary serif font. Inspired by Claude Garamond's 16th century types."
         }
       },
-      "download_url": "packages/font-eb-garamond-1.0.0.plumapkg",
-      "size_bytes": 500,
-      "checksum_sha256": "1f4e8e9d4addd159dd88e46de1d5d700496acb14ae401688d0b08ab2eecebab4",
+      "download_url": "packages/font-eb-garamond-1.1.0.plumapkg",
+      "size_bytes": 114298,
+      "checksum_sha256": "784bd65538ef0e58274666d298dce9c7e451cab5cd9065f500e5c1564ec799e6",
       "tags": [
         "identity",
         "font"
@@ -104,7 +104,7 @@
     },
     {
       "id": "font-jetbrains-mono",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "PlumAi Core",
       "category": "identity",
       "min_app_version": "0.1.0",
@@ -118,9 +118,9 @@
           "description": "Monospaced font for maximum focus. Designed for long writing without visual fatigue."
         }
       },
-      "download_url": "packages/font-jetbrains-mono-1.0.0.plumapkg",
-      "size_bytes": 511,
-      "checksum_sha256": "e068a852f04b1d2729901cfaa6a54ba75f0301ab7bfa6b75548977ff3b94066d",
+      "download_url": "packages/font-jetbrains-mono-1.1.0.plumapkg",
+      "size_bytes": 118632,
+      "checksum_sha256": "e67b5f676c072be72c9016c4100b0940457d6f5554bbb3dc00d55c5e4972736b",
       "tags": [
         "identity",
         "font"
@@ -128,7 +128,7 @@
     },
     {
       "id": "font-lora",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "PlumAi Core",
       "category": "identity",
       "min_app_version": "0.1.0",
@@ -142,9 +142,9 @@
           "description": "Elegant serif font for literary writing. Smooth transitions and sophisticated character."
         }
       },
-      "download_url": "packages/font-lora-1.0.0.plumapkg",
-      "size_bytes": 502,
-      "checksum_sha256": "e4774dcbd7d9fe182489dc2eda5d3a6f7aabc3cf2ffd0711ae080f7bbfc4d9c0",
+      "download_url": "packages/font-lora-1.1.0.plumapkg",
+      "size_bytes": 114716,
+      "checksum_sha256": "85f50c568b9f38abc03041e319ecdb08b21187df67a36a0373a855c847b9cd03",
       "tags": [
         "identity",
         "font"
@@ -152,7 +152,7 @@
     },
     {
       "id": "font-merriweather",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "PlumAi Core",
       "category": "identity",
       "min_app_version": "0.1.0",
@@ -166,9 +166,9 @@
           "description": "High readability serif font. Ideal for long texts and comfortable reading."
         }
       },
-      "download_url": "packages/font-merriweather-1.0.0.plumapkg",
-      "size_bytes": 487,
-      "checksum_sha256": "9160724f0e793305cbbebe37582618ccc54bbbdddfcba6f1e669215e619e17e7",
+      "download_url": "packages/font-merriweather-1.1.0.plumapkg",
+      "size_bytes": 290348,
+      "checksum_sha256": "a9d92e802214caf591b983b4f3e0c58501818491f243b3a7870ea95eee5e2e65",
       "tags": [
         "identity",
         "font"
@@ -176,7 +176,7 @@
     },
     {
       "id": "font-montserrat",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "PlumAi Core",
       "category": "identity",
       "min_app_version": "0.1.0",
@@ -190,9 +190,9 @@
           "description": "Clean geometric sans-serif font. Modern and versatile for interfaces."
         }
       },
-      "download_url": "packages/font-montserrat-1.0.0.plumapkg",
-      "size_bytes": 472,
-      "checksum_sha256": "8904bb8e1b1462e135b80d19bdd8bedeb1463401356b7e57592e3a6a7a796bb4",
+      "download_url": "packages/font-montserrat-1.1.0.plumapkg",
+      "size_bytes": 88458,
+      "checksum_sha256": "40846f65ed2d6dff68163285179a8df06adb810823f3b64483fe1d7e32232f1c",
       "tags": [
         "identity",
         "font"
@@ -200,7 +200,7 @@
     },
     {
       "id": "font-playfair",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "PlumAi Core",
       "category": "identity",
       "min_app_version": "0.1.0",
@@ -214,9 +214,9 @@
           "description": "Traditional style display serif font. Perfect for titles and editorial text."
         }
       },
-      "download_url": "packages/font-playfair-1.0.0.plumapkg",
-      "size_bytes": 484,
-      "checksum_sha256": "6a08d262ffd22873dae1289509e0290427b4c6eea068ef2780e1da833b28243f",
+      "download_url": "packages/font-playfair-1.1.0.plumapkg",
+      "size_bytes": 116759,
+      "checksum_sha256": "874e83eca1d38ea43380c3184af85a709af0866410ab95f0d203141962e1c52c",
       "tags": [
         "identity",
         "font"
@@ -460,6 +460,32 @@
       "tags": [
         "identity",
         "banners"
+      ]
+    },
+    {
+      "id": "amazon-endure",
+      "version": "1.0.0",
+      "author": "PlumAi",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Amazon Endure",
+          "description": "Fuente serif de cuerpo para libros. Incluida con PlumAi y embebida en el PDF exportado (lista para KDP)."
+        },
+        "en": {
+          "name": "Amazon Endure",
+          "description": "Serif body font for books. Bundled with PlumAi and embedded into the exported PDF (KDP-ready)."
+        }
+      },
+      "download_url": "packages/amazon-endure-1.0.0.plumapkg",
+      "size_bytes": 200873,
+      "checksum_sha256": "df1f6e0d301c2c79a385b73072ed6fa2b30dfcc0d86f7ee9866b24973dcc1069",
+      "tags": [
+        "font",
+        "serif",
+        "book",
+        "embeddable"
       ]
     }
   ]
