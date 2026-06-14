@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "registry_id": "plumai-official",
   "name": "PlumAi Official Packages",
-  "updated_at": "2026-06-14T00:00:00.000Z",
+  "updated_at": "2026-06-14T01:00:00.000Z",
   "packages": [
     {
       "id": "como-matar-un-perro",
@@ -481,6 +481,84 @@
       "download_url": "packages/amazon-endure-1.0.0.plumapkg",
       "size_bytes": 200873,
       "checksum_sha256": "df1f6e0d301c2c79a385b73072ed6fa2b30dfcc0d86f7ee9866b24973dcc1069",
+      "tags": [
+        "font",
+        "serif",
+        "book",
+        "embeddable"
+      ]
+    },
+    {
+      "id": "font-alegreya",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Alegreya",
+          "description": "Serif diseñada específicamente para literatura. Cálida, dinámica y cómoda en textos largos. Premiada por el TDC."
+        },
+        "en": {
+          "name": "Alegreya",
+          "description": "Serif designed specifically for literature. Warm, dynamic and comfortable in long texts. TDC award-winning."
+        }
+      },
+      "download_url": "packages/font-alegreya-1.0.0.plumapkg",
+      "size_bytes": 120077,
+      "checksum_sha256": "3b7b791c6e6f985d43d4d4d642fd21307f4ca501c2b5e888fea5c1230c6e1d46",
+      "tags": [
+        "font",
+        "serif",
+        "book",
+        "embeddable"
+      ]
+    },
+    {
+      "id": "font-vollkorn",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Vollkorn",
+          "description": "Serif clásica pensada para el cuerpo de texto: robusta, legible y de color parejo en la página. Ideal para novelas."
+        },
+        "en": {
+          "name": "Vollkorn",
+          "description": "Classic serif made for body text: sturdy, readable and even in color on the page. Ideal for novels."
+        }
+      },
+      "download_url": "packages/font-vollkorn-1.0.0.plumapkg",
+      "size_bytes": 134173,
+      "checksum_sha256": "951e76da7bfc2cc1b6acce3d06ade1fcbcbf9c6411b68fea2dfde3709dac3222",
+      "tags": [
+        "font",
+        "serif",
+        "book",
+        "embeddable"
+      ]
+    },
+    {
+      "id": "font-spectral",
+      "version": "1.0.0",
+      "author": "PlumAi Core",
+      "category": "identity",
+      "min_app_version": "0.1.0",
+      "metadata": {
+        "es": {
+          "name": "Spectral",
+          "description": "Serif de Production Type diseñada para pantalla e impresión. Elegante y económica en espacio, excelente para libros."
+        },
+        "en": {
+          "name": "Spectral",
+          "description": "Production Type serif designed for screen and print. Elegant and space-efficient, excellent for books."
+        }
+      },
+      "download_url": "packages/font-spectral-1.0.0.plumapkg",
+      "size_bytes": 78183,
+      "checksum_sha256": "64867e2255a1615e96b7aa7c01ad78b60edb15f7a43377dcd36c7855efb973f3",
       "tags": [
         "font",
         "serif",
